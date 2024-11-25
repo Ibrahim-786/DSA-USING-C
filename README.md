@@ -1,2 +1,1 @@
-# c_plus_plus_intermediate
-c++ for interview purpose
+# Problem solving using c/c++
