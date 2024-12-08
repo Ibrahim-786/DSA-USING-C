@@ -1,9 +1,5 @@
  #include<stdio.h>
 
-
-
-
-
  struct mydata{
      int sum;
      int element_count;
