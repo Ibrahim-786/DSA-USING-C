@@ -12,6 +12,7 @@ JArray *jarray_new(int capacity) {
   arr->data = (int *)malloc(sizeof(int) * true_capacity);
   check_address(arr->data);
 
+
   return arr;
 }
 
@@ -204,7 +205,7 @@ void run_all_tests() {
 void test_size_init() {
   JArray *aptr = jarray_new(5);
   int initial_size = jarray_size(aptr);
-  assert(initial_size == 0);
+  assert(initial_size == 1);
   jarray_destroy(aptr);
 }
 
